@@ -2,7 +2,7 @@
     --primary: #1a1a2e;
     --secondary: #16213e;
     --accent: #0f3460;
-    --highlight: #e94560;
+    --highlight: #20b2aa;
     --text: #ffffff;
     --text-secondary: #b8b8b8;
 }
@@ -50,7 +50,7 @@ nav {
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
-    color: var(--highlight);
+    color: #0fe1f2;
     display: flex;
     align-items: center;
 }
@@ -78,7 +78,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: var(--highlight);
+    color: #30d5c8;
 }
 
 .nav-links a::after {
@@ -136,7 +136,7 @@ nav {
 }
 
 .btn:hover {
-    background-color: #d13453;
+    background-color: #20b2aa;
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
