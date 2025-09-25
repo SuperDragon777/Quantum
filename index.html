@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Quantum</div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Quantum</h1>
+            <p>Место, где твои самые смелые строительные проеты стоновяться реальностью</p>
+            <a href="#ip" class="btn">Подключиться</a>
+            <a href="#rules" class="btn btn-outline">Правила</a>
+        </div>
+    </section>
+
+    <section class="ip-section" id="ip">
+        <div class="container">
+            <div class="section-title">
+                <h2>Подключение к серверу</h2>
+            </div>
+            <div class="ip-container">
+                <h3>Java Edition</h3>
+                <div class="ip-box">
+                    <span class="ip-address" id="java-ip">quantumlab.joinserver.ru</span>
+                    <button class="copy-btn" onclick="copyToClipboard('java-ip')">Копировать</button>
+                </div>
+                
+                <h3>Bedrock Edition</h3>
+                <div class="ip-box">
+                    <span class="ip-address" id="bedrock-ip">65.108.18.2</span>
+                    <button class="copy-btn" onclick="copyToClipboard('bedrock-ip')">Копировать</button>
+                </div>
+                <div class="ip-box">
+                    <span class="ip-address" id="bedrock-port">25633</span>
+                    <button class="copy-btn" onclick="copyToClipboard('bedrock-port')">Копировать</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section" id="map">
+        <div class="container">
+            <div class="section-title">
+                <h2>Карта сервера</h2>
+            </div>
+            <div class="map-container">
+                <iframe src="https://quantumlab.dynmap.xyz/#world:692:6:332:461:0.2:0.65:0:0:perspective" width="100%" height="100%"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="rules-section" id="rules">
+        <div class="container">
+            <div class="section-title">
+                <h2>Правила сервера</h2>
+            </div>
+            <div class="rules-container">
+                <div class="rule-card">
+                    <h3><i class="fas fa-ban"></i>УК КВ</h3>
+                    <ul>
+                        <li>1.1 Запрещено нарушать запреты указанные в земельном кодексе. Наказание: ≈ 25 минут в тюрьме, возмещение всего украденного, моральная компенсация по решению суда.</li>
+                        <li>1.2 Запрещено умышленное смертельное причинение вреда здоровью другому участника проекта. Наказание: ≈ 25 минут в тюрьме. Примечание: Чтобы заявить об убийстве придите к дому охраны. Сообщите об убийстве и предъявите доказательства в виде книги об убийстве.</li>
+                        <li>1.3 Умышленная порча важных объектов сервера (например спавн). Наказание: ≈ 30 минут в тюрьме, восстановление имущества, моральная компенсация по решению суда.</li>
+                    </ul>
+                </div>
+                <div class="rule-card">
+                    <h3><i class="fas fa-ban"></i> КоАП КВ</h3>
+                    <ul>
+                        <li>1.1  Проникновение на частную собственность без разрешения. Наказание: Сначала 1 предупреждение штраф в размере пяти алмазов.</li>
+                        <li>1.2 Мелкая кража (До 9 предметов). Наказание: Возмещение всего, штраф: 3 алмаза.</li>
+                    </ul>
+                </div>
+                <div class="rule-card">
+                    <h3><i class="fas fa-ban"></i> ФЗ о Территориях</h3>
+                    <ul>
+                        <li>1.1 Чтобы обозначить, например, что: эта территория ваша, вы должны установить табличку с подписью “Это собственность игрока, Player”. И также указать территорию вашей постройки например: 20 на 20 блоков, 30 на 30 блоков и т.д.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наши контакты</h2>
+            </div>
+            <div class="contact-container">
+                <p>Присоединяйся к нашему сообществу! Следи за новостями, участвуй в обсуждениях и будь в курсе всех событий сервера.</p>
+                <a href="https://t.me/quantumnet_tg" class="btn" target="_blank"><i class="fab fa-telegram"></i> Группа в Telegram</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Quantum © 2025. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
