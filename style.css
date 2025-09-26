@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.sansation {
+    font-family: "Sansation", sans-serif;
+    font-size: 24px;
+}
+
 :root {
     --primary: #1a1a2e;
     --secondary: #16213e;
     --accent: #0f3460;
-    --highlight: #20b2aa;
+    --highlight: #30d5c8;
     --text: #ffffff;
     --text-secondary: #b8b8b8;
 }
